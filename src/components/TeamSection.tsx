@@ -31,36 +31,36 @@ const TeamSection = () => {
       linkedin: "priyasharma-ai"
     },
     {
-      name: "Rohit Verma",
+      name: "Amit Sharma",
       role: "Blockchain Developer",
-      university: "Ranchi University",
-      email: "rohit.verma@email.com",
-      github: "rohitverma",
-      linkedin: "rohitverma-blockchain"
+      university: "JECRC Foundation",
+      email: "amit.sharma@email.com",
+      github: "amitsharma",
+      linkedin: "amitsharma-blockchain"
     },
     {
-      name: "Sneha Das",
+      name: "Kaitri Karadiya",
       role: "UI/UX Designer",
-      university: "IIIT Ranchi",
-      email: "sneha.das@email.com",
-      github: "snehadesign",
-      linkedin: "sneha-das-design"
+      university: "JECRC Foundation",
+      email: "kaitri.karadiya@email.com",
+      github: "kaitridesign",
+      linkedin: "kaitri-karadiya-design"
     },
     {
-      name: "Vikash Kumar",
+      name: "Anvi Singh",
       role: "Security Specialist",
-      university: "NIT Jamshedpur",
-      email: "vikash.kumar@email.com",
-      github: "vikashsec",
-      linkedin: "vikash-security"
+      university: "JECRC Foundation",
+      email: "anvi.singh@email.com",
+      github: "anvisec",
+      linkedin: "anvi-security"
     },
     {
-      name: "Anita Kumari",
+      name: "Deshna Modi",
       role: "Product Manager",
-      university: "BIT Mesra",
-      email: "anita.kumari@email.com",
-      github: "anitapm",
-      linkedin: "anita-product-manager"
+      university: "JECRC Foundation",
+      email: "deshna.modi@email.com",
+      github: "deshnapm",
+      linkedin: "deshna-product-manager"
     }
   ];
 
