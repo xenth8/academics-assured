@@ -5,6 +5,14 @@ import { Button } from "@/components/ui/enhanced-button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
+// Import Valorant character images
+import valorantJett from "@/assets/valorant-jett.jpg";
+import valorantSage from "@/assets/valorant-sage.jpg";
+import valorantPhoenix from "@/assets/valorant-phoenix.jpg";
+import valorantViper from "@/assets/valorant-viper.jpg";
+import valorantReyna from "@/assets/valorant-reyna.jpg";
+import valorantKilljoy from "@/assets/valorant-killjoy.jpg";
+
 const TeamSection = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -13,22 +21,37 @@ const TeamSection = () => {
     message: ""
   });
 
+  // Function to get avatar image based on Valorant agent
+  const getAvatarImage = (valorantAgent: string) => {
+    const avatarMap: { [key: string]: string } = {
+      "Jett": valorantJett,
+      "Sage": valorantSage,
+      "Phoenix": valorantPhoenix,
+      "Viper": valorantViper,
+      "Reyna": valorantReyna,
+      "Killjoy": valorantKilljoy
+    };
+    return avatarMap[valorantAgent] || valorantJett;
+  };
+
   const teamMembers = [
     {
       name: "Aditya Sharma",
-      role: "Team Lead & Full Stack Developer",
+      role: "Web Developer",
       university: "JECRC Foundation",
-      email: "arjun.singh@email.com",
-      github: "arjunkumar",
-      linkedin: "arjunkumarsingh"
+      email: "aditya.sharma@email.com",
+      github: "adityasharma",
+      linkedin: "adityasharma",
+      valorantAgent: "Jett"
     },
     {
       name: "Adamya Pareek",
-      role: "AI/ML Engineer",
+      role: "Team Lead & Communication Specialist",
       university: "JECRC Foundation",
-      email: "priya.sharma@email.com",
-      github: "priyasharma",
-      linkedin: "priyasharma-ai"
+      email: "adamya.pareek@email.com",
+      github: "adamyapareek",
+      linkedin: "adamyapareek-ai",
+      valorantAgent: "Sage"
     },
     {
       name: "Amit Sharma",
@@ -36,7 +59,8 @@ const TeamSection = () => {
       university: "JECRC Foundation",
       email: "amit.sharma@email.com",
       github: "amitsharma",
-      linkedin: "amitsharma-blockchain"
+      linkedin: "amitsharma-blockchain",
+      valorantAgent: "Phoenix"
     },
     {
       name: "Kaitri Karadiya",
@@ -44,7 +68,8 @@ const TeamSection = () => {
       university: "JECRC Foundation",
       email: "kaitri.karadiya@email.com",
       github: "kaitridesign",
-      linkedin: "kaitri-karadiya-design"
+      linkedin: "kaitri-karadiya-design",
+      valorantAgent: "Viper"
     },
     {
       name: "Anvi Singh",
@@ -52,7 +77,8 @@ const TeamSection = () => {
       university: "JECRC Foundation",
       email: "anvi.singh@email.com",
       github: "anvisec",
-      linkedin: "anvi-security"
+      linkedin: "anvi-security",
+      valorantAgent: "Reyna"
     },
     {
       name: "Deshna Modi",
@@ -60,7 +86,8 @@ const TeamSection = () => {
       university: "JECRC Foundation",
       email: "deshna.modi@email.com",
       github: "deshnapm",
-      linkedin: "deshna-product-manager"
+      linkedin: "deshna-product-manager",
+      valorantAgent: "Killjoy"
     }
   ];
 
@@ -107,8 +134,12 @@ const TeamSection = () => {
               className="bg-card rounded-xl p-6 shadow-soft hover:shadow-elegant transition-all duration-300 border border-border group"
             >
               <div className="text-center">
-                <div className="w-20 h-20 bg-gradient-hero rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
-                  {member.name.split(' ').map(n => n[0]).join('')}
+                <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden border-2 border-primary/20">
+                  <img 
+                    src={getAvatarImage(member.valorantAgent)} 
+                    alt={`${member.name} - ${member.valorantAgent}`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold text-primary mb-2">{member.name}</h3>
                 <p className="text-accent font-medium mb-1">{member.role}</p>
