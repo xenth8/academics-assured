@@ -15,17 +15,17 @@ const TeamSection = () => {
 
   const teamMembers = [
     {
-      name: "Arjun Kumar Singh",
+      name: "Aditya Sharma",
       role: "Team Lead & Full Stack Developer",
-      university: "NIT Jamshedpur",
+      university: "JECRC Foundation",
       email: "arjun.singh@email.com",
       github: "arjunkumar",
       linkedin: "arjunkumarsingh"
     },
     {
-      name: "Priya Sharma",
+      name: "Adamya Pareek",
       role: "AI/ML Engineer",
-      university: "BIT Mesra",
+      university: "JECRC Foundation",
       email: "priya.sharma@email.com",
       github: "priyasharma",
       linkedin: "priyasharma-ai"
