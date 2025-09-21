@@ -147,12 +147,12 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/80 text-sm">
-              © 2024 The Authenticity Validator for Academia. Built for SIH 2024.
+              © 2024 The Authenticity Validator for Academia. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm text-white/80">
-              <span>Made with ❤️ in Jharkhand</span>
+              <span>Made with ❤️ for Academic Integrity</span>
               <span className="hidden md:inline">•</span>
-              <span>SIH Team ID: #SIH2024JHARKHAND</span>
+              <span>Securing Education's Future</span>
             </div>
           </div>
         </motion.div>

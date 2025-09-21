@@ -30,7 +30,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8"
           >
             <Shield className="w-4 h-4" />
-            <span className="text-sm font-medium">SIH 2024 Project</span>
+            <span className="text-sm font-medium">Academic Integrity Solution</span>
           </motion.div>
 
           {/* Main Headline */}

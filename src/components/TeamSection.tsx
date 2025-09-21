@@ -115,10 +115,10 @@ const TeamSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Meet Our SIH 2024 Team
+            Meet Our Development Team
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A dedicated team of students from Jharkhand's premier institutions, 
+            A dedicated team of developers and security experts
             working together to revolutionize academic credential verification.
           </p>
         </motion.div>
