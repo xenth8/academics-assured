@@ -1,73 +1,136 @@
-# Welcome to your Lovable project
+# The Authenticity Validator for Academia
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/5ade37dc-8151-45b9-b753-a292e8152a5f
+**Fighting Academic Forgery with Technology** - A comprehensive digital platform designed to detect and prevent fake degrees, certificates, and documents across Jharkhand's higher education system.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **AI-Powered Document Analysis**: Advanced machine learning algorithms to detect sophisticated forgeries
+- **Blockchain Verification**: Immutable ledger technology for tamper-proof credential records
+- **Real-time Validation**: Instant verification results for employers and institutions
+- **Secure API Integration**: Easy integration with existing university systems
+- **Multi-institutional Support**: Comprehensive verification network across educational institutions
 
-**Use Lovable**
+## Technology Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ade37dc-8151-45b9-b753-a292e8152a5f) and start prompting.
+- **Frontend**: React 18, TypeScript, Tailwind CSS
+- **UI Components**: Radix UI, shadcn/ui
+- **Animations**: Framer Motion
+- **Build Tool**: Vite
+- **Styling**: Modern CSS with custom design system
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd authenticity-validator
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The built files will be in the `dist` directory, ready for deployment.
 
-## What technologies are used for this project?
+## Project Structure
 
-This project is built with:
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # Base UI components (buttons, inputs, etc.)
+│   ├── Hero.tsx        # Landing page hero section
+│   ├── ProblemSection.tsx
+│   ├── SolutionSection.tsx
+│   ├── FeaturesSection.tsx
+│   ├── DemoSection.tsx
+│   ├── TeamSection.tsx
+│   └── Footer.tsx
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── assets/             # Static assets
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Key Features Implementation
 
-## How can I deploy this project?
+### Document Verification Demo
+- Interactive file upload interface
+- Simulated AI analysis with realistic results
+- Real-time progress indicators
+- Comprehensive validation reports
 
-Simply open [Lovable](https://lovable.dev/projects/5ade37dc-8151-45b9-b753-a292e8152a5f) and click on Share -> Publish.
+### Team Section
+- Professional team member profiles
+- Contact form integration
+- Social media links
+- University affiliations
 
-## Can I connect a custom domain to my Lovable project?
+### Responsive Design
+- Mobile-first approach
+- Optimized for all screen sizes
+- Modern design aesthetics
+- Smooth animations and transitions
 
-Yes, you can!
+## Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is optimized for deployment on various platforms:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Netlify**: Drag and drop the `dist` folder after building
+- **Vercel**: Connect your Git repository for automatic deployments
+- **GitHub Pages**: Use the built files in the `dist` directory
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## Team
+
+This project was developed by a dedicated team of students working on academic integrity solutions:
+
+- **Aditya Sharma** - Web Developer
+- **Adamya Pareek** - Team Lead & Communication Specialist  
+- **Amit Sharma** - Blockchain Developer
+- **Kaitri Karadiya** - UI/UX Designer
+- **Anvi Singh** - Security Specialist
+- **Deshna Modi** - Product Manager
+
+## License
+
+This project is developed for educational and research purposes as part of academic integrity initiatives.
+
+## Contact
+
+For questions or collaboration opportunities, please reach out to our team at:
+- Email: team.authenticator@sih2024.com
+- GitHub: [Your GitHub Organization]
+
+---
+
+**Built with ❤️ for Academic Integrity**
