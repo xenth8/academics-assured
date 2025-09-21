@@ -11,7 +11,7 @@ const Footer = () => {
     ],
     company: [
       { name: "About Team", href: "#team" },
-      { name: "SIH 2024", href: "#" },
+      { name: "Project Info", href: "#" },
       { name: "Contact", href: "#contact" },
       { name: "Blog", href: "#" }
     ],
@@ -24,9 +24,9 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { name: "GitHub", icon: Github, href: "https://github.com/sih-authenticator" },
-    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/company/sih-authenticator" },
-    { name: "Email", icon: Mail, href: "mailto:team.authenticator@sih2024.com" }
+    { name: "GitHub", icon: Github, href: "https://github.com/authenticator-project" },
+    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/company/authenticator-project" },
+    { name: "Email", icon: Mail, href: "mailto:team.authenticator@education.com" }
   ];
 
   return (
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
               <p className="text-white/80 mb-6 leading-relaxed">
                 Fighting academic forgery with cutting-edge technology. 
-                Securing the future of higher education in Jharkhand and beyond.
+                Securing the future of higher education worldwide.
               </p>
               <div className="flex gap-4">
                 {socialLinks.map((social, index) => (

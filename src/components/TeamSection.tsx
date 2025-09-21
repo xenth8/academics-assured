@@ -115,7 +115,7 @@ const TeamSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Meet Our Development Team
+            Meet Our Team
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             A dedicated team of developers and security experts
@@ -197,7 +197,7 @@ const TeamSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-primary">Email</p>
-                  <p className="text-muted-foreground">team.authenticator@sih2024.com</p>
+                  <p className="text-muted-foreground">team.authenticator@education.com</p>
                 </div>
               </div>
 
@@ -217,7 +217,7 @@ const TeamSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-primary">GitHub</p>
-                  <p className="text-muted-foreground">github.com/sih-authenticator</p>
+                  <p className="text-muted-foreground">github.com/authenticator-project</p>
                 </div>
               </div>
             </div>

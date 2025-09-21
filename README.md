@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Fighting Academic Forgery with Technology** - A comprehensive digital platform designed to detect and prevent fake degrees, certificates, and documents across Jharkhand's higher education system.
+**Fighting Academic Forgery with Technology** - A comprehensive digital platform designed to detect and prevent fake degrees, certificates, and documents across higher education systems.
 
 ## Features
 
@@ -128,7 +128,7 @@ This project is developed for educational and research purposes as part of acade
 ## Contact
 
 For questions or collaboration opportunities, please reach out to our team at:
-- Email: team.authenticator@sih2024.com
+- Email: team.authenticator@education.com
 - GitHub: [Your GitHub Organization]
 
 ---

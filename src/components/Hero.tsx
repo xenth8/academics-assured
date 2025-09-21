@@ -53,7 +53,7 @@ const Hero = () => {
             className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed"
           >
             A digital platform to detect and prevent fake degrees, certificates, 
-            and documents across Jharkhand's higher education system.
+            and documents across higher education systems worldwide.
           </motion.p>
 
           {/* CTA Buttons */}
